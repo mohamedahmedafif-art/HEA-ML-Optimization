@@ -10,7 +10,7 @@ import shap
 print("Libraries loaded. Initializing Collinearity-Corrected Kernel...")
 
 # 1. LOAD THE DATASET
-# [Cr, Ni, Al, Cu, AnnTemp] -> Target: [Yield Strength]
+# Features: [Cr, Ni, Al, Cu, AnnTemp] -> Target: [Yield Strength]
 literature_data = np.array([
     [25.0, 25.0, 0.0, 0.0, 25, 180], [24.5, 24.5, 0.0, 0.0, 25, 400],
     [24.0, 24.0, 0.0, 0.0, 25, 450], [23.5, 23.5, 0.0, 0.0, 25, 350],
@@ -23,10 +23,15 @@ literature_data = np.array([
     [40.0, 40.0, 0.0, 0.0, 1050, 584]
 ])
 
+# CORRECTED COMPOSITION: Fe60Cr17Ni15-xAl8Cux
+# FORMAT: [Cr, Ni, Al, Cu, AnnTemp, Yield Strength]
 experimental_data = np.array([
-    [17.5, 13.0, 8.0, 0.0, 900, 890], [17.5, 12.5, 8.0, 0.5, 900, 900],
-    [17.5, 12.0, 8.0, 1.0, 900, 950], [17.5, 13.0, 8.0, 0.0, 1000, 690],
-    [17.5, 12.5, 8.0, 0.5, 1000, 730], [17.5, 12.0, 8.0, 1.0, 1000, 800]
+    [17.0, 15.0, 8.0, 0.0, 900, 890],  # Cu0-900
+    [17.0, 14.5, 8.0, 0.5, 900, 900],  # Cu0.5-900
+    [17.0, 14.0, 8.0, 1.0, 900, 950],  # Cu1-900
+    [17.0, 15.0, 8.0, 0.0, 1000, 690], # Cu0-1000
+    [17.0, 14.5, 8.0, 0.5, 1000, 730], # Cu0.5-1000
+    [17.0, 14.0, 8.0, 1.0, 1000, 800]  # Cu1-1000
 ])
 
 feature_names = ['Cr', 'Ni', 'Al', 'Cu', 'AnnTemp']
@@ -62,7 +67,7 @@ for i in range(len(experimental_data)):
     X_train_scaled = scaler.fit_transform(X_train_fold)
     X_test_scaled = scaler.transform(X_test_fold)
     
-    # CRITICAL FIX: alpha=0.5 prevents the Ni+Cu=13.0 matrix collapse
+    # CRITICAL FIX: alpha=0.5 prevents the Ni+Cu=15.0 matrix collapse
     gpr = GaussianProcessRegressor(kernel=kernel, alpha=0.5, n_restarts_optimizer=20, normalize_y=True, random_state=42)
     gpr.fit(X_train_scaled, y_train_fold)
     y_pred_loocv.append(gpr.predict(X_test_scaled)[0])
