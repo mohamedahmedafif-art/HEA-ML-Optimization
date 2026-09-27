@@ -1,0 +1,25 @@
+Model,Replication,n_literature,R2_mean,R2_sd
+log(Icorr),0x,0,-0.447,0.0
+log(Icorr),0x,5,0.693,0.308
+log(Icorr),0x,10,0.332,0.462
+log(Icorr),0x,15,0.448,0.316
+log(Icorr),0x,20,0.284,0.082
+log(Icorr),0x,23,0.275,0.0
+log(Icorr),30x,0,0.921,0.01
+log(Icorr),30x,5,0.872,0.012
+log(Icorr),30x,10,0.88,0.007
+log(Icorr),30x,15,0.878,0.013
+log(Icorr),30x,20,0.873,0.004
+log(Icorr),30x,23,0.877,0.005
+Yield strength,0x,0,0.891,0.0
+Yield strength,0x,3,-1.269,0.599
+Yield strength,0x,6,-0.288,1.199
+Yield strength,0x,9,0.247,0.659
+Yield strength,0x,12,0.18,0.606
+Yield strength,0x,15,0.715,0.0
+Yield strength,10x,0,0.891,0.011
+Yield strength,10x,3,0.889,0.011
+Yield strength,10x,6,0.9,0.01
+Yield strength,10x,9,0.902,0.011
+Yield strength,10x,12,0.901,0.015
+Yield strength,10x,15,0.901,0.015

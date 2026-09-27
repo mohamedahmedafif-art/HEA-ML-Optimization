@@ -1,0 +1,9 @@
+Model,Replication,R2,MAE,RMSE,Mean_posterior_sigma,Reported_in_main_text
+log(Icorr),0x,0.275,0.3037,0.3289,0.2848,False
+log(Icorr),5x,0.881,0.1107,0.1334,0.1565,False
+log(Icorr),10x,0.869,0.1173,0.14,0.112,False
+log(Icorr),30x,0.88,0.1115,0.1337,0.0801,True
+Yield strength,0x,0.715,42.0726,50.376,173.6777,False
+Yield strength,5x,0.899,25.6254,29.9534,64.6427,False
+Yield strength,10x,0.913,24.4706,27.8279,41.3975,True
+Yield strength,30x,0.906,24.3428,28.8836,22.2675,False

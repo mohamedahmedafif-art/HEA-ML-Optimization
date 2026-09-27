@@ -1,0 +1,6 @@
+Feature,Minimum,Maximum,Std_dev,Constant
+Cr,17.0,17.0,0.0,True
+Ni,14.0,15.0,0.4082,False
+Al,8.0,8.0,0.0,True
+Cu,0.0,1.0,0.4082,False
+AnnTemp,900.0,1000.0,50.0,False
