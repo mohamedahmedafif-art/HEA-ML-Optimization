@@ -1,0 +1,43 @@
+Ref,Alloy,Route,Thermal,Cr,Ni,Al,Cu,AnnTemp,Ecorr_V,Icorr_A_cm2,YS_MPa,Electrolyte,Ref_electrode,Used_in
+[48],(NiCoCrFeMn)Cu0,powder metallurgy,"sintered 1200 C, 1 h",20.0,20.0,0.0,0.0,1200,-0.92,6.17e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu2,powder metallurgy,"sintered 1200 C, 1 h",19.6,19.6,0.0,2.0,1200,-0.86,4.31e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu4,powder metallurgy,"sintered 1200 C, 1 h",19.2,19.2,0.0,4.0,1200,-0.72,3.41e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu6,powder metallurgy,"sintered 1200 C, 1 h",18.8,18.8,0.0,6.0,1200,-1.13,2.12e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu0,powder metallurgy,"sintered 1300 C, 1 h",20.0,20.0,0.0,0.0,1300,-0.98,5.6e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu2,powder metallurgy,"sintered 1300 C, 1 h",19.6,19.6,0.0,2.0,1300,-0.93,3.91e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu4,powder metallurgy,"sintered 1300 C, 1 h",19.2,19.2,0.0,4.0,1300,-0.81,3.1e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[48],(NiCoCrFeMn)Cu6,powder metallurgy,"sintered 1300 C, 1 h",18.8,18.8,0.0,6.0,1300,-1.15,1.92e-05,,3.5 wt.% NaCl,Ag/AgCl,corrosion
+[49],FeCoCrNi,PAP-DED (additive),as-deposited,25.0,25.0,0.0,0.0,25,-1.024,1.66e-05,173.0,3.5 wt.% NaCl,SCE,"corrosion, strength"
+[49],FeCoCrNiMo0.2,PAP-DED (additive),as-deposited,23.8,23.8,0.0,0.0,25,-1.02,1.47e-05,384.0,3.5 wt.% NaCl,SCE,"corrosion, strength"
+[49],FeCoCrNiMo0.5,PAP-DED (additive),as-deposited,22.2,22.2,0.0,0.0,25,-1.03,2.57e-05,,3.5 wt.% NaCl,SCE,corrosion
+[49],FeCoCrNiMo0.8,PAP-DED (additive),as-deposited,20.8,20.8,0.0,0.0,25,-1.034,2.58e-05,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),as-deposited,20.0,20.0,10.0,0.0,25,-0.241,1.88e-06,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 300 C,20.0,20.0,10.0,0.0,300,-0.266,4.24e-07,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 375 C,20.0,20.0,10.0,0.0,375,-0.213,1.29e-07,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 450 C,20.0,20.0,10.0,0.0,450,-0.233,3.1e-07,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 525 C,20.0,20.0,10.0,0.0,525,-0.229,4.78e-07,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 600 C,20.0,20.0,10.0,0.0,600,-0.297,3.74e-07,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 800 C,20.0,20.0,10.0,0.0,800,-0.237,1.46e-06,,3.5 wt.% NaCl,SCE,corrosion
+[50],Al0.5Mn0.5CoCrFeNi,LDED (additive),annealed 900 C,20.0,20.0,10.0,0.0,900,-0.124,3.77e-06,,3.5 wt.% NaCl,SCE,corrosion
+[51],Fe1.125Ni1.06CrAl,arc melt,as-cast,23.9,25.3,23.9,0.0,25,-0.228,9.26e-09,,3.5 wt.% NaCl,SCE,corrosion
+[51],Fe1.125Ni1.125CrAl,arc melt,as-cast,23.5,26.5,23.5,0.0,25,-0.223,6.34e-08,,3.5 wt.% NaCl,SCE,corrosion
+[51],FeNiCrAl,arc melt,as-cast,25.0,25.0,25.0,0.0,25,-0.281,1.9e-07,,3.5 wt.% NaCl,SCE,corrosion
+[90],Ni2Cr2Fe,arc melt + CR 80%,"annealed 850 C, 2 min",40.0,40.0,0.0,0.0,850,,,1091.0,,,strength
+[90],Ni2Cr2Fe,arc melt + CR 80%,"annealed 900 C, 2 min",40.0,40.0,0.0,0.0,900,,,1058.0,,,strength
+[90],Ni2Cr2Fe,arc melt + CR 80%,"annealed 950 C, 2 min",40.0,40.0,0.0,0.0,950,,,1009.0,,,strength
+[90],Ni2Cr2Fe,arc melt + CR 80%,"annealed 1000 C, 2 min",40.0,40.0,0.0,0.0,1000,,,604.0,,,strength
+[90],Ni2Cr2Fe,arc melt + CR 80%,"annealed 1050 C, 2 min",40.0,40.0,0.0,0.0,1050,,,584.0,,,strength
+[91],Al0.1CrFe2Ni2,vacuum induction melt,as-cast,19.6,39.2,2.0,0.0,25,,,200.0,,,strength
+[91],Al0.3CrFe2Ni2,vacuum induction melt,as-cast,18.9,37.7,5.7,0.0,25,,,200.0,,,strength
+[91],Al0.5CrFe2Ni2,vacuum induction melt,as-cast,18.2,36.4,9.1,0.0,25,,,300.0,,,strength
+[91],Al0.6CrFe2Ni2,vacuum induction melt,as-cast,17.9,35.7,10.7,0.0,25,,,400.0,,,strength
+[91],Al0.7CrFe2Ni2,vacuum induction melt,as-cast,17.5,35.1,12.3,0.0,25,,,600.0,,,strength
+[91],Al0.8CrFe2Ni2,vacuum induction melt,as-cast,17.2,34.5,13.8,0.0,25,,,750.0,,,strength
+[91],Al0.9CrFe2Ni2,vacuum induction melt,as-cast,16.9,33.9,15.3,0.0,25,,,1100.0,,,strength
+[91],Al1.0CrFe2Ni2,vacuum induction melt,as-cast,16.7,33.3,16.7,0.0,25,,,780.0,,,strength
+Present,Cu0-900,arc melt + CR 70%,"annealed 900 C, 1 h",17.0,15.0,8.0,0.0,900,-0.369,2.94e-05,890.0,3.5 wt.% NaCl + 0.1 M H2SO4,SCE,"corrosion, strength"
+Present,Cu0.5-900,arc melt + CR 70%,"annealed 900 C, 1 h",17.0,14.5,8.0,0.5,900,-0.301,3.95e-06,900.0,3.5 wt.% NaCl + 0.1 M H2SO4,SCE,"corrosion, strength"
+Present,Cu1-900,arc melt + CR 70%,"annealed 900 C, 1 h",17.0,14.0,8.0,1.0,900,-0.284,4.99e-06,950.0,3.5 wt.% NaCl + 0.1 M H2SO4,SCE,"corrosion, strength"
+Present,Cu0-1000,arc melt + CR 70%,"annealed 1000 C, 1 h",17.0,15.0,8.0,0.0,1000,-0.364,1.94e-05,690.0,3.5 wt.% NaCl + 0.1 M H2SO4,SCE,"corrosion, strength"
+Present,Cu0.5-1000,arc melt + CR 70%,"annealed 1000 C, 1 h",17.0,14.5,8.0,0.5,1000,-0.301,2.89e-06,730.0,3.5 wt.% NaCl + 0.1 M H2SO4,SCE,"corrosion, strength"
+Present,Cu1-1000,arc melt + CR 70%,"annealed 1000 C, 1 h",17.0,14.0,8.0,1.0,1000,-0.279,3.66e-06,800.0,3.5 wt.% NaCl + 0.1 M H2SO4,SCE,"corrosion, strength"
